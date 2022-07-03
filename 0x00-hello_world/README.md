@@ -1,1 +1,1 @@
-write a script that compiles a C file but does not link. the C file name will be saved in the variable . the output should be named thesame as the C file, but with extension .o instead of .c example: if the C file is main.c, the output should be main.o
+write a script that generates the assembly code of a C code and save it in an output file. the C file name will be saved in the variable . the output file should be named thesame as the C file, but with extension .s instead of .c example: if the C file is main.c, the output should be main.s
