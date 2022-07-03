@@ -1,1 +1,1 @@
-write a script that runs a C file through preprocessor and save the result into another file. the C file name will be saved in the variable . the output should be saved in the file c
+write a script that compiles a C file but does not link. the C file name will be saved in the variable . the output should be named thesame as the C file, but with extension .o instead of .c example: if the C file is main.c, the output should be main.o
