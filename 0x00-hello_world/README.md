@@ -1,1 +1,1 @@
-write a C program that prints exactly with proper grammer, but the outcome is a piece of art, followed by a new line. use the function printf you are not allowed to use the function puts your program should compile without warning when using the -Wall gcc option
+write a C program that prints the size of various types on the computer it is compiled and run on. you should produce the exact same output as in the example. warnings are allowed your program should return 0 you might have to install the package libc6-dev-i386 on your linux to test the -m32 gcc option
