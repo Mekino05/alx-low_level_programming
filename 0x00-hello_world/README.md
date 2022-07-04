@@ -1,1 +1,1 @@
-write a  script that generates the assembly code (intel syntax) of a code and save it in an output file. the C file name will be saved in the variable . the output file should be named thesame as the C file, but with extension .s instead of .c example: if the C file is main.c, the output should be main.s
+write a C program that points exactly programming is like building a multilingual puzzle, followed by a new line. use the function puts. you are not allowed to use printf. your program should end with the value 0
