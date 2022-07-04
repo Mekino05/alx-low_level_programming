@@ -1,1 +1,1 @@
-write a C program that prints exactly programming is like building a multilingual puzzle, followed by a new line. use the function puts you are not allowed to use printf your program should end with the value 0
+write a C program that prints exactly with proper grammer, but the outcome is a piece of art, followed by a new line. use the function printf you are not allowed to use the function puts your program should compile without warning when using the -Wall gcc option
