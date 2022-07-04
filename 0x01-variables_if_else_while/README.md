@@ -1,1 +1,1 @@
-Write a program that prints the alphabet in lowercase, followed by a new line. you can only use the putchar function (every other function (printf, puts, etc…) is forbidden) all your code should be in the main function you can only use putchar twice in your code
+write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line. you can only use the putchar function (every other function (printf, puts, etc…) is forbidden) all your code should be in the main function you can only use putchar three times in your code
