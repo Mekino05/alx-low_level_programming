@@ -1,1 +1,2 @@
-write a C program that points exactly programming is like building a multilingual puzzle, followed by a new line. use the function puts. you are not allowed to use printf. your program should end with the value 0
+write a C program that prints exactly programming is like building a multilingual puzzle, followed by a new line. use the function puts > README.md
+echo write a C program that prints exactly programming is like building a multilingual puzzle, followed by a new line. use the function puts you are not allowed to use printf your program should end with the value 0
