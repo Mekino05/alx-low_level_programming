@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 int _putchar(char);
 void print_alphabet(void);
@@ -12,4 +12,4 @@ void times_table(void);
 int add(int a, int b);
 void print_to_98(int n);
 void print_times_table(int n);
-void num(int r, int n);
+void num(int r, int n);;
