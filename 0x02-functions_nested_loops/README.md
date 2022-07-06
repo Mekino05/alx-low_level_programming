@@ -1,1 +1,1 @@
-write a program that prints _putchar, followed by a new line. the program should return 0
+write a function that prints the alphabet, in lowercase, followed by a new line. prototype; void print_alphabet(void); you can only use _putchar twice in your code
