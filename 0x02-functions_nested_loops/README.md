@@ -1,1 +1,1 @@
-write a function that computes the absolute value of an integer. prototype; int _abs(int); FYI; the standard library provides a similar function; abs. run man abs to learn more
+write a function that prints the last digit of a number. prototype; int print_last_digit(int); returns the value of the last digit
