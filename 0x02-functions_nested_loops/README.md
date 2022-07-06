@@ -1,2 +1,1 @@
-write a function that prints the 9 times table, starting with 0. prototype; void times_table(void);
-format; see example
+write a function that adds two integers and returns the result. prototype; int add(int, int);
