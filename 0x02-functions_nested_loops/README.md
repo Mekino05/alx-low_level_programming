@@ -1,1 +1,1 @@
-write a function that prints 10 times the alphabet, in lowercase, followed by a new line. prototype; void print_alphabet_x10(void); you can only use _putchar twice in your code
+write a function that checks for lowercase character. prototype; int _islower(int c); returns 1 if c is lowercase returns 0 otherwise FYI; the standard library provides a similar function; islower. run man islower to learn more
