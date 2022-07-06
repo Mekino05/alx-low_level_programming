@@ -1,1 +1,1 @@
-write a function that checks for lowercase character. prototype; int _islower(int c); returns 1 if c is lowercase returns 0 otherwise FYI; the standard library provides a similar function; islower. run man islower to learn more
+write a function that checks for alphabetic character. prototype: int _isalpha(int c); returns 1 if c is a letter, lowercase or uppercase returns 0 otherwise FYI; the standard library provides a similar function; isalpha. run man isalpha to learn more
