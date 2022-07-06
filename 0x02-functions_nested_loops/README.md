@@ -1,1 +1,1 @@
-write a function that checks for alphabetic character. prototype: int _isalpha(int c); returns 1 if c is a letter, lowercase or uppercase returns 0 otherwise FYI; the standard library provides a similar function; isalpha. run man isalpha to learn more
+write a function that prints the sign of a number. prototype: int print_sign(int n); returns 1 and prints + if n is greater than zero returns 0 and prints 0 if n is zero returns -1 and prints - if n is less than zero
