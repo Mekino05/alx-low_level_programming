@@ -1,1 +1,1 @@
-write a function that prints the sign of a number. prototype: int print_sign(int n); returns 1 and prints + if n is greater than zero returns 0 and prints 0 if n is zero returns -1 and prints - if n is less than zero
+write a function that computes the absolute value of an integer. prototype; int _abs(int); FYI; the standard library provides a similar function; abs. run man abs to learn more
