@@ -1,1 +1,1 @@
-The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081. write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line. you are allowed to use the standard library your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_fact
+Write a function that prints an integer. prototype; void print_number(int n); you can only use _putchar function to print
