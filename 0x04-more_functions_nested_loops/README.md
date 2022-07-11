@@ -1,1 +1,1 @@
-Write a function that checks for a digit (0 through 9). prototype: int _isdigit(int c); returns 1 if c is a digit returns 0 otherwise FYI; the standard library provides a similar function; isdigit. Run man isdigit to learn more
+Write a function that multiplies two integers. prototype; int mul(int a, int b);
