@@ -1,0 +1,1 @@
+Write a function that checks for uppercase character. prototype: int _isupper(int c); returns 1 if c is uppercase returns 0 otherwise FYI; the standard library provides a similar function; isupper. run man isupper to learn more
