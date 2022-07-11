@@ -12,10 +12,5 @@ printf("%c: %d\n", c, _isdigit(c));
 c = 'a';
 printf("%c: %d\n", c, _isdigit(c));
 {
-return (1);
-}
-else
-{
 return (0);
-}
-}
+}}
