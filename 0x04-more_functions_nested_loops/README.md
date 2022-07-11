@@ -1,1 +1,1 @@
-Write a function that prints 10 times the numbers, from 0 to 14, followed by a new line. prototype: void more_numbers(void); you can only use _putchar three times in your code
+Write a function that draws a straight line in the terminal. prototype; void print_line(int n); you can only use _putchar function to print where n is the number of times the character _ should be printed the line should end with a \n if n is 0 or less, the function should only print \n
