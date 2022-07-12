@@ -1,2 +1,1 @@
-Write a function that prints half of a string, followed by a new line. prototype; void puts_half(char *str); the function should print the second half of the string
-If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
+Write a function that returns the length of a string. prototype: int _strlen(char *s); FYI; the standard library provides a similar function; strlen. Run man strlen to learn more
