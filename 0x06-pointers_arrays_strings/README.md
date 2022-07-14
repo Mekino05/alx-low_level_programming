@@ -1,1 +1,1 @@
-Write a function that encodes a string using rot13. prototype: char *rot13(char *); you can only use if statement once in your code you can only use two loops in your code you are not allowed to use switch you are not allowed to use any ternary operation
+Write a function that prints an integer. prototype; void print_number(int n); you can only use _putchar function to print you are not allowed to use long you are not allowed to use arrays or pointers you are not allowed to hard-code special values
