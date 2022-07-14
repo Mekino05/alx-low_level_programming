@@ -1,20 +1,25 @@
 #include "main.h"
 /**
-* print_number - Prints any integer with putchar
-* @n: Number to prints
+*_strcmp - a function that compares two strings
 *
-* Return: Nothing
+* @s1: The function of strings
+* @s2: The function of strcmp
+*
+* Return: Always 0.
 */
-void print_number(int n)
+int _strcmp(char *s1, char *s2)
 {
-unsigned int x;
-if (n < 0)
+while (((*s1 != '\0') && (*s2 != '\0')) && (*s1 == *s2))
 {
-_putchar('-');
-n *= -1;
+s1++;
+s2++;
 }
-x = n;
-if (x / 10)
-print_number(x / 10);
-_putchar(x % 10 + '0');
+if (*s1 == *s2)
+{
+return (0);
+}
+else
+{
+return (*s1 - *s2);
+}
 }
