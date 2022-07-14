@@ -1,1 +1,1 @@
-Write a function that changes all lowercase letters of a string to uppercase. Prototype; char *string_toupper(char *);
+Write a function that encodes a string using rot13. prototype: char *rot13(char *); you can only use if statement once in your code you can only use two loops in your code you are not allowed to use switch you are not allowed to use any ternary operation
