@@ -1,1 +1,1 @@
-Write a function that compares two strings. prototype: int _strcmp(char *s1, char *s2); your function should work exactly like strcmp FYI; the standard library provides a similar function; strcmp. run man strcmp to learn more
+Write a function that copies a string. prototype; char *_strncpy(char *dest, char *src, int n); your function should work exactly like strncpy FYI; the standard library provides a similar function; strncpy. run man strncpy to learn more
