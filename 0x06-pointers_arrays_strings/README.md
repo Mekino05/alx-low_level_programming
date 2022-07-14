@@ -1,1 +1,1 @@
-Write a function that compares two strings. prototype: int _strcmp(char *s1, char *s2); your function should work exactly like strcmp FYI; the standard library provides a similar function; strcmp. run man strcmp to learn more
+Write a function that reverses the content of an array of integers. Prototype; void reverse_array(int *a, int n); where n is the number of elements of the array

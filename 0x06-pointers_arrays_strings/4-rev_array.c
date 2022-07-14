@@ -1,21 +1,24 @@
-#include <stdio.h>
-int main(void)
-{
-int n;
-int a[5];
-int *p;
-a[2] = 1024;
-p = &n;
-/*
-* write your line of code here...
-* Remember:
-* - you are not allowed to use a
-* - you are not allowed to modify p
-* - only one statement
-* - you are not allowed to code anything else than this line of code
+#include "main.h"
+/**
+* reverse_array - reverses the content of an array of integers
+* @a: An array of integers
+* @n: Number of elements to swap
+*
+* Return: empty.
 */
-*(p + 5) = 98;
-/* ...so that this prints 98\n */
-printf("a[2] = %d\n", a[2]);
-return (0);
+void reverse_array(int *a, int n)
+{
+int *d, i, aux, k;
+d = a;
+for (i = 1; i < n; i++)
+{
+d++;
 }
+for (k = 0; k < i / 2; k++)
+{
+aux = a[k];
+a[k] = *d;
+*d = aux;
+d--;
+}
+}}
