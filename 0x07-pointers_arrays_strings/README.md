@@ -1,2 +1,1 @@
-Write a function that locates a character in a string. prototype; char *_strchr(char *s, char c);
-returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found FYI; the standard library provides a similar function; strchr. run man strchr to learn more
+Write a function that gets the length of a prefix substring. prototype; unsigned int _strspn(char *s, char *accept); returns the number of bytes in the initial segment of s which consist only of bytes from accept FYI; the standard library provides a similar function; strspn. Run man strspn to learn more
