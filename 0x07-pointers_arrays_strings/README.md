@@ -1,0 +1,1 @@
+Write a function that fills memory with a constant byte. prototype; char *_memset(char *s, char b, unsigned int n); the _memset() function fills the first n bytes of the memory area pointed to by s with the constant byte b returns a pointer to the memory area s FYI; the standard library provides a similar function; memset. run man memset to learn more
