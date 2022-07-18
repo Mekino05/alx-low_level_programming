@@ -1,1 +1,1 @@
-Write a function that prints the sum of the two diagonals of a square matrix of integers. prototype; void print_diagsums(int *a, int size); format; see example you are allowed to use the standard library note that in the following example we are casting an int[][] into an int*. this is not something you should do. the goal here is to make sure you understand how an array of array is stored in memory
+Write a function that sets the value of a pointer to a char. prototype; void set_string(char **s, char *to);
