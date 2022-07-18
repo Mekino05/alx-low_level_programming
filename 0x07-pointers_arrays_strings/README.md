@@ -1,1 +1,1 @@
-Write a function that locates a substring. prototype; char *_strstr(char *haystack, char *needle); the _strstr() function finds the first occurrence of the substring needle in the string haystack. the terminating null bytes (\0) are not compared returns a pointer to the beginning of the located substring, or NULL if the substring is not found. FYI; the standard library provides a similar function; strstr. Run man strstr to learn more
+Write a function that prints the chessboard. prototype; void print_chessboard(char (*a)[8]);
