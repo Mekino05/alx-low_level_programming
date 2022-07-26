@@ -1,1 +1,1 @@
-Write a function that returns a pointer to a 2 dimensional array of integers. Prototype; int **alloc_grid(int width, int height); each element of the grid should be initialized to 0 the function should return NULL on failure if width or height is 0 or negative, return NULL
+Write a function that frees a 2 dimensional grid previously created by your alloc_grid function. Prototype; void free_grid(int **grid, int height); note that we will compile with your alloc_grid.c file. Make sure it compiles
