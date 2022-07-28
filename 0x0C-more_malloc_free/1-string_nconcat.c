@@ -1,41 +1,54 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
-* string_nconcat - a function that concatenates two strings.
-* @s1: first char
-* @s2: secound char
-* @n: unsigned int
-* Return: If the function fails, it should return NULL
+*_strlen - counts and returns string length
+* @s: that's the string
+* Return: the length
+*/
+int _strlen(char *s)
+{
+int counter = 0;
+if (!*s)
+return (0);
+while (*s)
+{
+counter++;
+s++;
+}
+return (counter);
+}
+/**
+* string_nconcat - concats 2 strings
+* @s1: the first str
+* @s2: the second str
+* @n: how much of s2 to add
+* Return: ptr to new string
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int x, y, z;
-char *s;
-if (s1 == NULL)
+char *new;
+int total = 0;
+int i;
+int j = 0;
+if (!s1)
+s1 = "";
+if (!s2)
+s2 = "";
+total += _strlen(s1) + n;
+new = malloc((total * sizeof(char)) + 1);
+if (new == NULL)
 {
-x = 0;
-}
-else
-{
-for (x = 0; s1[x]; ++x)
-;
-}
-if (s2 == NULL)
-{
-y = 0;
-}
-else
-{
-for (y = 0; s2[y]; ++y)
-;
-}
-if (y > n)
-y = n;
-s = malloc(sizeof(char) * (x + y + 1));
-if (s == NULL)
 return (NULL);
-for (z = 0; z < x; z++)
-s[z] = s1[z];
-for (z = 0; z < y; z++)
-s[z + x] = s2[z];
-s[x + y] = '\0';
-return (s);
+}
+for (i = 0; s1[i]; i++)
+{
+new[i] = s1[i];
+}
+for (; n || !s2; n--, i++, j++)
+{
+new[i] = s2[j];
+}
+new[i] = '\0';
+return (new);
+}
