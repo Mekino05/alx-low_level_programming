@@ -1,3 +1,1 @@
-Write a function that prints a struct dog Prototype; void print_dog(struct dog *d);
-Format; see example bellow you are allowed to use the standard library
-If an element of d is NULL, print (nil) instead of this element. (if name is NULL, print Name; (nil)) If d is NULL print nothing
+Write a function that creates a new dog. Prototype; dog_t *new_dog(char *name, float age, char *owner); you have to store a copy of name and owner Return NULL if the function fails
