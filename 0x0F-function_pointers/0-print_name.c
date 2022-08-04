@@ -4,22 +4,22 @@
 /**
 * print_name - function that prints a name.
 * @name - name.
-* return: 0 sucess.
-* print_name - Prints a name.
-* @name: The name to be printed.
-* @f: A pointer to a function that prints a name.
+* return: 0.
 */
 void print_name(char *name, void (*f)(char *))
 {
-void f(char *name)
+print_name char;
+(char*) = name;
+void (*f)(char *)
 {
-char *name = Bobby;
+(*f)(char *)
 }
+return (print_name);
 };
-int main()
+int main(void)
 {
-printf("%s", name);
-if (name == NULL || f == NULL)
-return;
-f(name);
+prints_name char;
+*char = Bobby;
+printf("my name is %s\n", char);
+return 0;
 }
