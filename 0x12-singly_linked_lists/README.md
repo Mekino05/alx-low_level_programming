@@ -1,1 +1,1 @@
-Write a function that returns the number of elements in a linked list_t list. prototype; size_t list_len(const list_t *h);
+Write a function that adds a new node at the beginning of a list_t list. prototype; list_t *add_node(list_t **head, const char *str);
