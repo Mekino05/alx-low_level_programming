@@ -1,1 +1,1 @@
-Write a function that prints the binary representation of a number. prototype; void print_binary(unsigned long int n);
+Write a function that returns the value of a bit at a given index. prototype; int get_bit(unsigned long int n, unsigned int index);
