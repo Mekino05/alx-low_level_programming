@@ -1,1 +1,1 @@
-Write a function that appends text at the end of a file. prototype; int append_text_to_file(const char *filename, char *text_content);
+Write a program that displays the information contained in the ELF header at the start of an ELF file. usage; elf_header elf_filename
