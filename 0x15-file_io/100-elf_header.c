@@ -1,18 +1,4 @@
-Skip to content
-ikmazameti
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x15-file_io/100-elf_header.c
-315 lines (286 sloc)  6.68 KB
- #include <elf.h>
+#include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -178,7 +164,8 @@ printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 */
 void print_abi(unsigned char *e_ident)
 {
-printf("  ABI Version:                       %d\n",	e_ident[EI_ABIVERSION]);
+printf("  ABI Version:                       %d\n",
+e_ident[EI_ABIVERSION]);
 }
 /**
 * print_type - Prints the type of an ELF header.
@@ -253,7 +240,7 @@ exit(98);
 * Description: If the file is not an ELF File or
 *              the function fails - exit code 98.
 */
-int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int _attribute__((__unused__)) argc, char *argv[])
 {
 Elf64_Ehdr *header;
 int o, r;
@@ -279,7 +266,14 @@ dprintf(STDERR_FILENO, "Error: `%s`: No such file\n", argv[1]);
 exit(98);
 }
 check_elf(header->e_ident);
-printf("ELF Header:\n");	print_magic(header->e_ident);	print_class(header->e_ident);	print_data(header->e_ident);	print_version(header->e_ident);	print_osabi(header->e_ident);	print_abi(header->e_ident);	print_type(header->e_type, header->e_ident);	print_entry(header->e_entry, header->e_ident);
+printf("ELF Header:\n");
+print_magic(header->e_ident);
+print_class(header->e_ident);
+print_data(header->e_ident);	print_version(header->e_ident);
+print_osabi(header->e_ident);
+print_abi(header->e_ident);
+print_type(header->e_type, header->e_ident);
+print_entry(header->e_entry, header->e_ident);
 free(header);
 close_elf(o);
 return (0);
