@@ -1,1 +1,1 @@
-write a function that divides all elements of a matrix
+write a function that creates a hash table
