@@ -1,1 +1,1 @@
-write a hash function implementing the djb2 algorithm
+write a function that creates a hash table
