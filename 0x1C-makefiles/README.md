@@ -1,1 +1,1 @@
-create your first useful Makefile
+create your first Makefile
